@@ -19,13 +19,19 @@ public class Quiz_4 {
         
         System.out.println(suma);
         
+         //MULTIPLICACION
+        int multiplicacion = v1 * v2;
+        
+        System.out.println("La multiplicación es: " + multiplicacion);
+        
+        
     }
     
-public static void main(String[]arv){
+public static void main(String[]args){
     
     Quiz_4 q = new Quiz_4();
     
-    q.prueba(7,4);
+    q.prueba(7,5);
 }
 }
 
