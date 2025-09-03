@@ -15,6 +15,8 @@ public class Quiz_4 {
         //realizaremos primeramente una suma de dos valores, luego mi compañera hará 
         //que sea una multiplicacion y lo imprima y por ultimo haré que sea una divicion 
         //y que lo imprima acompañado de un mensaje
+       
+        //SUMA
         int suma = v1+v2;
         
         System.out.println(suma);
@@ -23,6 +25,15 @@ public class Quiz_4 {
         int multiplicacion = v1 * v2;
         
         System.out.println("La multiplicación es: " + multiplicacion);
+
+        //DIVISION
+        if (b != 0) {
+            double division = (double) a / b;
+            System.out.println("El resultado de la división es: " + division + 
+                               "operación completada");
+        } else {
+            System.out.println("No se puede dividir entre 0 ");
+        }
         
     }
     
