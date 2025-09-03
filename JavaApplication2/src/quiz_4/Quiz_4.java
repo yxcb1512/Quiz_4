@@ -18,6 +18,11 @@ public class Quiz_4 {
         int suma = v1+v2;
         
         System.out.println(suma);
+
+        //MULTIPLICACION
+        int multiplicacion = v1 * v2;
+        
+        System.out.println("La multiplicación es: " + multiplicacion);
         
     }
     
